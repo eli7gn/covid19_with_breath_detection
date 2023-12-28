@@ -1,7 +1,7 @@
 # COVID19 Audio Classifier for Coswara Breath Dataset
 
 ## Overview
-This project presents an audio classification system designed to identify 'positive' and 'negative' categories in the Coswara Breath Dataset. Utilizing a range of machine learning algorithms, the classifier demonstrates significant efficacy, particularly in maximizing recall to ensure all positive cases are identified.
+This project presents an audio classification system designed to identify 'positive' and 'negative' COVID19 in the Coswara Breath Dataset. Utilizing a range of machine learning algorithms, the classifier demonstrates significant efficacy, particularly in maximizing recall to ensure all positive cases are identified.
 
 ## Dataset
 The Coswara Breath Dataset comprises audio recordings categorized into 'positive' and 'negative' groups based on specific criteria. This dataset is instrumental in developing models that can distinguish between these two categories effectively.
@@ -17,7 +17,7 @@ The project harnesses the power of various machine learning algorithms, each off
 6. **Combined Approach**: This approach aggregates predictions from all models, marking a case as positive if any model predicts it as such. It's particularly useful for maximizing recall.
 
 ## Performance Metrics
-The models were evaluated based on accuracy, precision, and recall. Notably, the combined approach achieved a recall of 0.89, indicating its effectiveness in identifying positive cases:
+The models were evaluated based on precision, and recall. Notably, the combined approach achieved a recall of 0.89, indicating its effectiveness in identifying positive cases:
 
 - **Combined Model Recall**: 0.89
 
